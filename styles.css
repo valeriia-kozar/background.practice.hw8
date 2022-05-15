@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 42px;
+}
+
+.clear {
+    clear: both;
+}
+
+.banner {
+    margin-bottom: 20px;
+    height: 168px;
+    background: linear-gradient(#FBB7E0, #949EB8);
+}
+
+.content-image {
+    border: 1px solid #E5482B;
+    background-image: url(img/pattern.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 20px;
+    padding: 40px 20px 25px 22px;
+}
+
+.left-side {
+    float: left;
+    display: block;
+}
+
+.photo {
+    margin-bottom: 30px;
+}
+
+.link {
+    background: #E5482B;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 13px 73px;
+    display: block;
+}
+
+.right-side {
+    width: 616px;
+    float: right;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.text {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.decorate-image {
+    border: 1px solid #8333F1;
+    box-sizing: border-box;
+    border-radius: 0px 30px 30px 30px;
+    height: 287px;
+    margin-bottom: 16px;
+    background-image: url(img/design.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 38px 42px 30px 48px;
+}
+
+.second-title {
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.second-text {
+    font-size: 18px;
+    line-height: 26px;
+    width: 608px;
+    margin-bottom: 20px;
+}
+
+.second-link {
+    display: inline-block;
+    background: #8333F1;
+    border-radius: 30px 30px 0px 30px;
+    color: white;
+    text-decoration: none;
+    padding: 13px 57px;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.background-image {
+    background-image: url(img/friends.png), url(img/carpet.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 290px;
+    margin-bottom: 22px;
+}
+
+.rainbow {
+    width: 954px;
+    height: 162px;
+    border-right: 1px solid #DE1919;
+    border-left: 1px solid #09FDC2;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #2541D3;
+    background-image: url(img/rainbow.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
